@@ -1,0 +1,21 @@
+div {
+    background-color: yellow;
+    border: 2px dotted black;
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+}
+
+div h1 {
+    margin: auto 30px;
+    padding: auto;
+}
+
+div h4 {
+    margin: 10px 80px;
+    padding: auto;
+}
+
+.class1 p{
+    padding: 15px;
+}

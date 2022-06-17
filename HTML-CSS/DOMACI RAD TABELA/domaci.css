@@ -1,0 +1,35 @@
+body {
+    background-color:rgba(255, 187, 0, 0.445)
+}
+
+div table{
+    margin: 150px 250px;
+    border: solid black ;
+}
+
+
+
+
+table tr:nth-child(1) {background-color: white;} 
+table tr:nth-child(3) {background-color: white;}
+table tr:nth-child(5) {background-color: white;}
+table tr:nth-child(7) {background-color: white;}
+table tr:nth-child(9) {background-color: white;}
+table tr:nth-child(11) {background-color: white;}
+table tr:nth-child(4) {background-color: rgba(17, 117, 17, 0.63);}
+table tr:nth-child(6) {background-color: rgba(17, 117, 17, 0.63);}
+table tr:nth-child(8) {background-color: rgba(17, 117, 17, 0.63);}
+table tr:nth-child(10) {background-color: rgba(17, 117, 17, 0.63);}
+
+.class1 tr, td{
+    text-align: center;
+}
+
+table{
+    border-radius: 7px;
+}
+
+table{
+    background-color: #fad4d4;
+    box-shadow: 10px 10px 10px rgb(61, 65, 6);
+}
