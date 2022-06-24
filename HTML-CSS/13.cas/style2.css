@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+}
+
+
+body{
+    font-family:'Exo 2', sans-serif ;
+}
+
+.glavni{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border: 2px dashed black ;
+    overflow: auto;
+}
+
+.class1{
+    background-color: aqua;
+}
+
+.prekosutra{
+    color: red;
+    font-size: large;
+}    
+
+
+.juce{
+    color: aqua;
+    font-size: xx-large;
+}
+
+.nakosutra{
+    color: yellow;
+}
+
+.datum{
+    color: coral;
+}
+
+
+
+.sad{
+    color: darkgoldenrod;
+}
+
+.glavni:nth-of-type(2) p:hover{
+    background-color: blue;
+}
+
+
+.glavni:nth-of-type(1) p:hover{
+    background-color: violet;
+}
+
+.glavni:nth-of-type(3) p:hover{
+    background-color: darkgreen;
+}
+.glavni:nth-of-type(3) span{
+    color: blue;
+    font-size: 39px;
+}
+
+.sutra{
+    color: aqua;
+}
+
+.back{
+    margin: 20px auto;
+    width: 850px;
+    height: 700px;
+    color: aliceblue;
+    background-image: url("./novi-pazar-grad___media_library_original_2000_1300-\(1\).jpg");
+    background-repeat: no-repeat;
+    /* background-size: 200px 100px; prva vrednost se odnosi na sirinu,druga na visinu */
+    /* background-size:cover; koristimo za prekrivanje celog kontejnera */
+      background-size: contain;/* background-size: contain; povecava fotografiju kako bi se popunio kontejner,ali ne sece je. */
+}
+
+.back h1{
+    color: rgb(255, 0, 0);
+}
+
+.back h1 .cl1{
+    color: blue;
+}

@@ -1,0 +1,99 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.class1 img :hover{
+    content: url(novi-pazar-grad___media_library_original_2000_1300-\(1\).jpg) ;
+}
+
+
+.class1:nth-of-type(1){
+    background-color: rgb(214, 168, 18);
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: dotted 2px black;
+    overflow-y: auto;
+}
+
+.class1:nth-of-type(2){
+    background-color: rgb(214, 168, 18);
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: dotted 2px black;
+    overflow: hidden;
+}
+
+.class1:nth-of-type(3){
+    background-color: rgb(214, 168, 18);
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: dotted 2px black;
+    display: none;
+}
+
+.class1:nth-of-type(4){
+    background-color: rgb(214, 168, 18);
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: dotted 2px black;
+    visibility: hidden;
+}
+
+.class1:nth-of-type(5){
+    background-color: rgb(214, 168, 18);
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+    margin: 30px auto;
+    border: dotted 2px black;
+    overflow: hidden;
+    
+}
+
+
+
+.glavni{
+    margin: 0px 40px;
+}
+
+h3{
+    margin: 0px 40px;
+}
+
+body{
+    background-color: rgba(243, 239, 7, 0.466);
+}
+
+div img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#icon1{
+    color: aqua;
+}
+
+#icon2{
+    color: azure;
+    background-color: yellow;
+}
+
+#icon7{
+    color: blueviolet;
+}
+
+#icon8{
+    color: crimson;
+}
+
+.span{
+    color: red;
+}
