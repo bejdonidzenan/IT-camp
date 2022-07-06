@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.glavni{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 200vh;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 5;
+
+}
+
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+    z-index: 4;
+
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+    bottom: 150px;
+    z-index: 8;
+
+}

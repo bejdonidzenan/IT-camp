@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.parent{
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    background-color: crimson;
+    display: flex;
+    /* Horizontalno poravnanje */
+    /* justify-content: start; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-between; */
+    justify-content: space-between;
+
+    /* Vertikalno poravnjanje */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    align-items: center;
+}
+
+.box:nth-of-type(1){
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    align-self: flex-start;
+}
+
+.box:nth-of-type(2){
+    width: 100px;
+    height: 100px;
+    background-color: rgb(89, 0, 255);
+
+    display: flex;
+align-items: flex-end;
+}
+
+.box:nth-of-type(2) p:nth-of-type(2){
+    color: red;
+    align-self: center;
+}
+
+.box:nth-of-type(3){
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 242);
+    align-self: flex-end;
+}

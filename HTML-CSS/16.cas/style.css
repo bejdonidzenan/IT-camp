@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+}
+
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.glavni{
+    width: 100vw;
+    height: 200vh;
+    background-color: aquamarine;
+    position: relative;
+}
+
+.box1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* position: static;defaultna vednost pozicioniranja */
+    position: relative;
+    top: 0px;
+    left: 300px;
+}
+.box2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* Dozvoljene su i negativne vrednosti */
+    top: -50px;
+    left: -50px;
+}
+.box3{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    /* njega ne zanima kakav position ima glavni, kolikav god da je broswer tako se pozicionira */
+    top: 0px;
+    right: 0px;
+}
+.box4{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    /* bude odbijen u odnosu na mesto gde se nalazi,pozicija je rezervisana za njega,ponasa se slicno fix */
+    top: 100px;
+    left: 100px;
+    z-index: 5;
+}
+.box5{
+    background-color: rgb(212, 235, 12);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    z-index: 1;
+    /* ako ima preklapanje kontejnera korisimo z index,ko ima veci broj indeksa ce da se vidi */
+}
