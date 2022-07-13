@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.parent{
+    margin: 0 auto;
+width: 80%;
+height: 40vw;
+background-color: blue;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.parent:hover .child{
+    transform: translatey(100%);
+}

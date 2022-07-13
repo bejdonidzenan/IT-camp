@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.parent{
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(143, 143, 204);
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    /* TOP-TO-BOTTOM:NAZIV ANIMACIJE, 
+    3S: TRAJANJE, EASE-IN:FUNKCIJA 
+    FORWARDS:ANIMACIJA OSTAJE NA MESTU IZVRSENJA,
+    INFINITE:BROJ PONAVLJANJA, 
+    ALTERNATE:SVAKO POMERANJE PREDSTAVLJA JEDNO IZVRSENJE ANIMACIJE*/
+    animation: top-to-bottom 3s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child{
+    animation-play-state: paused;
+}
+
+
+
+@keyframes top-to-bottom{
+
+    33%{
+        background-color: red;
+        transform: translate(350px,80px);
+    }
+
+66%{
+    background-color: rgb(47, 0, 255);
+    transform: translate(350px,160px);
+}
+
+
+    100%{
+        background-color: white;
+        transform: translateY(250px);
+        border-radius: 50%;
+    }
+}

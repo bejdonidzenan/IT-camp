@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.parent{
+    margin: 0 auto;
+    width: 80vw;
+    height: 500px;
+    background-color: rgb(20, 220, 127);
+    display: flex;
+    flex-direction: column;
+    /* justify content je vertikalno poravnanje u odnosu na pre kada je bilo horizontalno */
+    justify-content: center;
+/* alignt items je horizontalno poravnanje u odnosu na pre kada je bilo vertikalno */
+    align-items: center;
+    gap: 5px;
+}
+
+.box:nth-of-type(1){
+    width: 200px;
+    height: 100px;
+    background-color: rgb(98, 0, 255);
+    order: 2;
+}
+
+.box:nth-of-type(2){
+    width: 200px;
+    height: 100px;
+    background-color: rgb(245, 246, 250);
+    order: 3;
+}
+
+
+
+
+.box:nth-of-type(3){
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 5, 5);
+    order: 1;
+}
