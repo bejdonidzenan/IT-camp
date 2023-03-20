@@ -1,0 +1,14 @@
+.GLAVNI{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.KARTICA1{
+    width: 100px;
+    height: 50px;
+}
+.img{
+    width: 20px;
+    height: 30px;
+}
+

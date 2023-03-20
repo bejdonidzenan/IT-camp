@@ -1,0 +1,78 @@
+.glavniBody{
+    margin: 0;
+}
+.HEDER{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(54, 54, 231);
+    display: flex;
+}
+.desni{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 5px;
+}
+.levi{
+    width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+color: aliceblue;
+}
+.levi h1{
+    margin: 0%;
+    font-size: 40px;
+    margin-left: 50px;
+}
+.desni a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+    margin-right: 50px;
+    gap: 5px;
+}
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainerTwo{
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+}
+.leftContainer{
+    width: 70%;
+    height: 20%;
+    background-color: rgb(0, 26, 255);
+    display: inline;
+    margin-left: 200px;
+}
+.righContainer{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(216, 54, 54);
+    display: flex;
+}
+.card{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    display: flex;
+}
+.cardHeader{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(40, 124, 124);
+    display: flex;
+    align-items: center;
+}

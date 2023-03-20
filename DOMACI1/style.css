@@ -1,0 +1,101 @@
+.dodatak1{
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.dodatak2{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(81, 255, 0);
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.dodatak3{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+
+}
+.dodatak4{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(176, 190, 50);
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+
+
+}
+.dodatak5{
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+
+
+}
+.dodatak6{
+    width: 50%;
+    height: 50px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+
+
+}
+/* .dodatak1 a{
+    justify-content: flex-start;
+    text-decoration: none;
+    color: black;
+    font-size: 15px; */
+/* } */
+
+.dodatak2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    /* width: 100%; */
+}
+.dodatak3 a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.dodatak4{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.dodatak5{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.dodatak6{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+

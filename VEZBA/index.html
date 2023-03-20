@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moj sajt</title>
+</head>
+
+<body>
+  <style>
+    .mainBox{
+        text-align: center;
+    }
+    form {
+      margin: auto;
+      width: 50%;
+      height: 35%;
+      text-align: center;
+      background-color: rgb(114, 119, 192);
+    }
+
+    input,
+    label {
+        margin: auto;
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 45%;
+      height: 50px;
+      box-sizing: border-box;
+      color: rgb(8, 8, 8)
+    }
+
+    .HeaderNav {
+      text-align: center;
+      color: blue;
+    }
+  </style>
+  <header>
+    <div class="HeaderNav">
+
+      <h1>Registracija za MOJ SITE</h1>
+    </div>
+  </header>
+  <main>
+    <div class="mainBox">
+      <div class="ispodBox">
+        <form class="domaciContainer">
+          <label for="name">Ime:</label><br />
+          <input type="text" id="name" name="name" placeholder="Unesite Vase ime">
+          <br />
+          <label>Prezime</label><br />
+          <input type="text" placeholder="Unesite Vase prezime">
+          <br />
+          <label>Broj</label><br />
+          <input type="number" placeholder="Unesite Vas broj telefona">
+          <br />
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" placeholder="Unesite Vasu Email Adresu">
+          <br />
+          <label>Datum</label>
+          <input type="date"><br />
+          <input type="submit" value="Registruj se">
+        </form>
+      </div>
+      <div class="treceBox">
+        <table>
+
+        </table>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
